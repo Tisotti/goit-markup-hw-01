@@ -1,0 +1,155 @@
+/* #212121 заголовки
+#757575 текст р
+#2196F3 кнопка в герое ссылки ховер часть лого
+#FFFFFF адрес в футере, н1 в герое, кнопки в ховере лого в футере
+#000000 лого в навигации
+
+E5E5E5  основной почти белый секция особенности и все портфолио
+F5F4FA наша команда 
+2F303A герой и футер 
+FFFFFF навигация */
+
+/* body */
+.page {
+  color: #757575;
+  background-color: #e5e5e5;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.header {
+  background-color: #ffffff;
+}
+/* logo */
+.logo {
+  font-size: 24px;
+}
+.logo-primary {
+  color: #2196f3;
+}
+.logo-secondary {
+  color: #000000;
+}
+.logo-tertiary {
+  color: #ffffff;
+}
+
+/* наследует цыет от body */
+
+/* навигация */
+.nav {
+  font-size: 16px;
+}
+.nav-address,
+.nav-list {
+  list-style: none;
+}
+
+.nav-link,
+.logo {
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.nav-mail,
+.nav-tel {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-mail:hover,
+.nav-mail:focus,
+.nav-tel:hover,
+.nav-tel:focus {
+  color: #2196f3;
+}
+
+/* герой */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.main-titel {
+  color: #ffffff;
+  font-size: 44px;
+}
+
+.hero-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/* наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-name,
+.team-position {
+  font-size: 16px;
+}
+
+/*  убрать точки у списков */
+.peculiarities-item,
+.disc-item,
+.team-item,
+.filters,
+.projects {
+  list-style-type: none;
+}
+
+/* заголовки */
+.disc-titel .team {
+  font-size: 36px;
+}
+.disc-titel,
+.peculiarities-titel,
+.team-titel,
+.team-name,
+.heading-title {
+  color: #212121;
+}
+
+/* портфолио фильтр кнопки */
+.filter-btn {
+  color: #212121;
+  background-color: ##f5f4fa;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/* убрать подчеркивание */
+.project-link {
+  text-decoration: none;
+}
+.portfolio-title {
+  color: #757575;
+  font-size: 16px;
+}
+
+.heading-title {
+  font-size: 18px;
+}
+
+/* футер для двух страниц */
+.footer-list {
+  list-style: none;
+}
+.footer-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
