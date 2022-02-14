@@ -44,6 +44,9 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 /* подсветка активной страницы ??? */
+.nav-link.current {
+  color: #2196f3;
+}
 
 /* навигация */
 .nav {
@@ -157,7 +160,7 @@ font-family: 'Roboto', sans-serif;*/
   line-height: 1.62;
   text-align: center;
   color: #212121;
-  background-color: ##f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .filter-btn:hover,
