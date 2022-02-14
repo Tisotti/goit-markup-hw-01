@@ -7,14 +7,19 @@
 E5E5E5  основной почти белый секция особенности и все портфолио
 F5F4FA наша команда 
 2F303A герой и футер 
-FFFFFF навигация */
+FFFFFF навигация 
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 /* body */
 .page {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
   background-color: #e5e5e5;
-  font-size: 14px;
-  font-family: Roboto;
 }
 
 .header {
@@ -22,7 +27,11 @@ FFFFFF навигация */
 }
 /* logo */
 .logo {
-  font-size: 24px;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-primary {
   color: #2196f3;
@@ -34,11 +43,15 @@ FFFFFF навигация */
   color: #ffffff;
 }
 
-/* наследует цыет от body */
+/* подсветка активной страницы ??? */
 
 /* навигация */
 .nav {
-  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-address,
 .nav-list {
@@ -70,19 +83,29 @@ FFFFFF навигация */
 }
 
 /* герой */
+.hero {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .hero,
 .footer {
   background-color: #2f303a;
-}
-.main-titel {
-  color: #ffffff;
-  font-size: 44px;
 }
 
 .hero-btn {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: #188ce8;
 }
 
 /* наша команда */
@@ -103,10 +126,21 @@ FFFFFF навигация */
   list-style-type: none;
 }
 
-/* заголовки */
+/* заголовки h2 */
 .disc-titel .team {
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
+
+.hidden {
+  font-family: "Roboto";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .disc-titel,
 .peculiarities-titel,
 .team-titel,
@@ -117,6 +151,11 @@ FFFFFF навигация */
 
 /* портфолио фильтр кнопки */
 .filter-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
   color: #212121;
   background-color: ##f5f4fa;
 }
@@ -129,16 +168,23 @@ FFFFFF навигация */
 }
 
 /* убрать подчеркивание */
-.project-link {
+.project-link,
+.footer-maps {
   text-decoration: none;
 }
 .portfolio-title {
   color: #757575;
+  font-family: Roboto;
   font-size: 16px;
+  line-height: 1.87;
 }
 
 .heading-title {
+  font-family: Roboto;
+  font-weight: bold;
   font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* футер для двух страниц */
@@ -147,8 +193,17 @@ FFFFFF навигация */
 }
 .footer-link {
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-maps {
   color: #ffffff;
 }
+.footer-maps:hover,
+.footer-maps:focus {
+  color: #2196f3;
+}
+
 .footer-link:hover,
 .footer-link:focus {
   color: #2196f3;
